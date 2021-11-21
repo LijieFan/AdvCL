@@ -38,7 +38,7 @@ All models will be stored in `./checkpoint`.
 ## Pretraining 
 Pretrain the model on CIFAR-10 with AdvCL
 ```bash
-python pretraining_advCL.py.py --dataset cifar10 --batch-size 512 --learning_rate 0.5 -t 0.5 --cosine --weight_decay 1e-4
+python pretraining_advCL.py --dataset cifar10 --batch-size 512 --learning_rate 0.5 -t 0.5 --cosine --weight_decay 1e-4
 ```
 
 ## Finetuning
